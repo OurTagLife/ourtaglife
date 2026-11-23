@@ -1,30 +1,20 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
-category: Development
-version: "1.0.0"
-port: 4000
+id: ourtaglife-kavita
+category: media
+name: Kavita
+version: "0.8.4"
+tagline: Fast, feature-rich cross-platform reading server
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Kavita is a fast, self-hosted digital library server built for comics,
+  manga, and ebooks. Organize your collection and read from any device
+  with a web browser or OPDS client.
+developer: Kareadita
+website: https://www.kavitareader.com
 dependencies: []
+repo: https://github.com/Kareadita/Kavita
+support: https://wiki.kavitareader.com
+port: 5000
+gallery: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "admin"
+defaultPassword: "admin123"
