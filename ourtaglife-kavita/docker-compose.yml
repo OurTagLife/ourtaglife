@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: ourtaglife-kavita_kavita_1
+      APP_HOST: mystore-kavita_kavita_1
       APP_PORT: 5000
 
   kavita:
@@ -15,4 +15,3 @@ services:
       - TZ=America/New_York
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
-      - ${UMBREL_ROOT}/data/storage/downloads:/books
